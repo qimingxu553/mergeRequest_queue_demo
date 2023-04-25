@@ -1,0 +1,13 @@
+package com.mergereq.core;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MergeRequestQueueDemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MergeRequestQueueDemoApplication.class, args);
+    }
+
+}
